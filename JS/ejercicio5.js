@@ -23,7 +23,7 @@ function fibona() {
 
     for (let i = 0; i < numero; i++) {
 
-        resultado += num1 + " ";
+        resultado += num1;
         console.log(resultado);
         let nresult = num1 + num2;
         console.log(nresult);
@@ -32,6 +32,6 @@ function fibona() {
         num2 = nresult;
         console.log(num2);
     }
-    console.log(resultado.trim());
+    console.log(resultado);
 }
 fibona();
