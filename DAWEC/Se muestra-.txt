@@ -1,0 +1,6 @@
+Se muestra->
+	10 Organizaciones
+	Lista de aportaciones del usuario(oculta)
+	Dinero donado
+	Sección vacía(lista de aportaciones realizadas)
+	botón para finalizar tramite
