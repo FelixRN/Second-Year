@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div {
+    box-sizing: border-box;
+    text-align: center;
+    border: 3px solid cadetblue;
+    border-radius: 10px;
+}
+
+#principal {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 60px;
+}
+
+#cajasTexto {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+label,
+textarea {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+
+button {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+
+textarea {
+    height: 150px;
+}
