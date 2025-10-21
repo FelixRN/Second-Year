@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Animales - Consulta</title>
+    <script src="listaAnimales.json" ></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Buscar animales por tipo</h1>
+
+    <form id="buscarForm">
+        <label for="tipoSelect">Tipo de animal:</label>
+        <select id="tipoSelect">
+            <option value="">-- Cargando tipos --</option>
+        </select>
+        <button type="submit">Solicitar información</button>
+    </form>
+
+    <div id="resultados" aria-live="polite"></div>
+</body>
+</html>

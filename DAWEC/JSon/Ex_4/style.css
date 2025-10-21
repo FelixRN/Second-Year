@@ -1,0 +1,4 @@
+body{font-family:Segoe UI, Roboto, Arial, sans-serif;margin:20px}
+        label,select,button{font-size:1rem}
+        .animal{border:1px solid #ddd;padding:10px;margin:8px 0;border-radius:6px}
+        .animal img{max-width:120px;display:block;margin-top:8px}
