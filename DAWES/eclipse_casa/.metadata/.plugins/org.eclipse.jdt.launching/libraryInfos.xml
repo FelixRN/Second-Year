@@ -12,7 +12,20 @@
         </endorsedDirs>
     </libraryInfo>
     <libraryInfo home="C:\Program Files\Java\jdk-24" version="24.0.1"/>
+    <libraryInfo home="C:\Users\alumnofp\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412" version="21.0.8">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
     <libraryInfo home="C:\Program Files\Java\jdk-25" version="25"/>
+    <libraryInfo home="C:\JAVA\jdk-24.0.2" version="24.0.2"/>
+    <libraryInfo home="C:\Users\alumnofp\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre" version="21.0.8"/>
     <libraryInfo home="C:\Users\Yo y tu\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre" version="21.0.8"/>
     <libraryInfo home="C:\Program Files (x86)\Java\jdk-23" version="23"/>
     <libraryInfo home="C:\Program Files (x86)\Java\jre1.8.0_421" version="1.8.0_421">

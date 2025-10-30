@@ -1,3 +1,5 @@
-2025/10/30-06:51:10.144 36a0 Reusing MANIFEST C:\Users\Yo y tu\Desktop\eclipse_casa\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
-2025/10/30-06:51:10.146 36a0 Recovering log #3
-2025/10/30-06:51:10.146 36a0 Reusing old log C:\Users\Yo y tu\Desktop\eclipse_casa\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000003.log 
+2025/10/30-08:20:44.119 3934 Log #3: 9 ops saved to Table #4 OK
+2025/10/30-08:20:44.121 3934 Archiving C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000003.log: OK
+2025/10/30-08:20:44.122 3934 Table #4: 9 entries OK
+2025/10/30-08:20:44.123 3934 Archiving C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001: OK
+2025/10/30-08:20:44.128 3934 **** Repaired leveldb C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database; recovered 1 files; 275 bytes. Some data may have been lost. ****
