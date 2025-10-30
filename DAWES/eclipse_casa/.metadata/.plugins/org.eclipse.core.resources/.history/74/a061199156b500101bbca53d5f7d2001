@@ -1,0 +1,34 @@
+package com.example.demo.controlador;
+
+import java.util.Arrays;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.sun.tools.javac.util.List;
+
+	@Controller
+	public class ProductController {
+
+	@RequestMapping(value="/product")
+	
+	public String mostrarProducto(Model model) {
+		List<Product> productos = Arrays.asList(
+                new Product("Teclado mecánico RGB", 59.99),
+                new Product("Ratón inalámbrico", 29.90),
+                new Product("Monitor 24 pulgadas", 149.99),
+                new Product("Auriculares gaming", 39.95)
+        );
+		
+		return "product";
+	}
+	
+	
+	Random random = new Random();
+    Product destacado = productos.get(random.nextInt(productos.size()));
+
+    model.addAttribute("producto", destacado);
+    return "product";
+}
+}

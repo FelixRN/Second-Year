@@ -1,0 +1,14 @@
+package com.example.demo.control;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+	@Controller
+	public class ProductControler {
+
+	@RequestMapping(value="/product")
+	
+	public String Hola() {
+		return "product";
+	}
+}

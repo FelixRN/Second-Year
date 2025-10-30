@@ -1,0 +1,9 @@
+package com.example.demo.controlador;
+@Controller
+public class InfoControler {
+@RequestMapping(value="/info")
+	
+	public String Hola() {
+		return "info";
+	}
+}
