@@ -25,13 +25,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.felix.SaludoServlet"/>
+			<item value="com.felix.RojasFelixCastonegroServlets"/>
+			<item value="com.felix.CastonegroServlet"/>
+			<item value="com.felix.CastoNegro"/>
 		</list>
 		<list key="groupId">
-			<item value="com.felix"/>
+			<item value="RojasFelixCastonegroServlets"/>
 		</list>
 		<list key="artifactId">
-			<item value="SaludoServlet"/>
+			<item value="RojasFelixCastonegroServlets"/>
+			<item value="RojasFelixCastonegroServlet"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

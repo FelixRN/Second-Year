@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.menu-contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #445486; 
+}
+
+
+.menu-contenedor > nav {
+    flex: 1; 
+    display: flex;
+    padding: 0;
+}
+
+.menu-principal {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    
+    margin: 0 auto;
+    justify-content: flex-start; 
+    gap: 20px;
+}
+
+.menu-principal > li {
+    color: white;
+    padding: 15px 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover {
+    background-color: rgb(62, 64, 100);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #3f5383;
+    min-width: 200px;
+    list-style: none;
+    padding: 0;
+    left: 1;
+    top: 100%;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 10px 0px 10px 35px;
+    margin-left: 10;
+    color: white;
+    background-color:#ff0202;
+}
+
+.submenu li:hover {
+    background-color:#864040;
+}
+
+.menu-contenedor-2 {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding-right: 16px;
+
+    margin-left: 50px;
+}
+
+.menu-contenedor-2 ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+.menu-contenedor-2 li {
+    padding: 20px 12px;
+    display: flex;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    }
+
+@media screen and (max-width: 767px) {
+    .menu-contenedor {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .menu-contenedor > nav {
+        flex: 1; 
+    }
+
+    .menu-principal {
+        flex-direction: column;
+    }
+
+    .menu-principal > li {
+        width: 100%;
+    }
+
+    .submenu {
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 100%;
+    }
+
+    .dropdown:hover .submenu {
+        display: block;
+    }
+
+    .menu-contenedor-2 {
+        margin-left: auto;
+    }
+}
+

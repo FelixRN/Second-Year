@@ -1,7 +1,11 @@
-let id = document.getElementById("apellido1");
-let p = document.getElementsByTagName("p");
-let d = document.getElementById("seccionTercera").getElementsByTagName;
-let inp = document.querySelectorALL("input");
-let in2 = document.getElementsByName();
+let ap = document.getElementById('apellido1');
+console.log(ap);
 
-console.log(document.querSlectorAll("input[name='sexo]']"))
+let allP = document. getElementsByTagName('p');
+console.log(allP);
+
+let allPDiv = document.querySelectorAll('.seccionTercera p');
+console.log(allPDiv);
+
+let inp = document.querySelectorAll('input');
+console.log(inp);
