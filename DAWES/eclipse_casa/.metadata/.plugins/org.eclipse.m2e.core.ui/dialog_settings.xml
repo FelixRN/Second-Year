@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\RojasFelixCastonegroServlets\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,14 +26,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.felix.ForEachCombo"/>
 			<item value="com.felix.RojasFelixCastonegroServlets"/>
 			<item value="com.felix.CastonegroServlet"/>
 			<item value="com.felix.CastoNegro"/>
 		</list>
 		<list key="groupId">
+			<item value="com.felix"/>
 			<item value="RojasFelixCastonegroServlets"/>
 		</list>
 		<list key="artifactId">
+			<item value="ForEachCombo"/>
 			<item value="RojasFelixCastonegroServlets"/>
 			<item value="RojasFelixCastonegroServlet"/>
 		</list>
