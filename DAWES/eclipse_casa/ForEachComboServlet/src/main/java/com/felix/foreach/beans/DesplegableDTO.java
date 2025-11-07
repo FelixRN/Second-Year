@@ -4,28 +4,28 @@ import java.io.Serializable;
 
 public class DesplegableDTO implements Serializable{
 
-		private Integer id;
+	private Integer id;
 
-		private String nombre;
-		public DesplegableDTO(Integer id, String nombre) {
+	private String nombre;
+	public DesplegableDTO(Integer id, String nombre) {
 		super();
 		this.id = id;
 		this.nombre = nombre;
-		}
-		public DesplegableDTO() {
+	}
+	public DesplegableDTO() {
 		super();
-		}
-		public Integer getId() {
+	}
+	public Integer getId() {
 		return id;
-		}
-		public void setId(Integer id) {
+	}
+	public void setId(Integer id) {	
 		this.id = id;
-		}
-		public String getNombre() {
+	}
+	public String getNombre() {
 		return nombre;
-		}
-		public void setNombre(String nombre) {
+	}
+	public void setNombre(String nombre) {
 		this.nombre = nombre;
-		}
+	}
 
 }

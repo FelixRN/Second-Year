@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Lista personas</title>
+</head>
+<body>
+	<h1>Lista personas</h1>
+	<h2>Lista personas:</h2>
+	<ul>
+		<li th:each="p : ${listaPersonas}"><span th:text="${p.nombre}">
+		</span> - <span th:text="${p.saldoCuenta}"></span></li>
+	</ul>
+	<h2>Desplegable de provincias:</h2>
+	<select>
+		<option th:each="provincia : ${opcionesDesplegable}"
+			th:value="${provincia.id}" th:text="${provincia.nombre}"></option>
+	</select>
+	<h2>Condicional con if:</h2>
+	<ul>
+		<li th:each="p : ${listaPersonas}"><span
+			th:if="${p.saldoCuenta >= 0}"
+			th:text="${p.nombre + ' : ' + p.saldoCuenta}"></span> <span
+			th:if="${p.saldoCuenta < 0}" th:style="'color:red'"
+			th:text="${p.nombre + ' : ' + p.saldoCuenta}"></span></li>
+	</ul>
+
+	<ul>
+		<li th:each="p : ${listaPersonas}"><span
+			th:switch="${p.categoriaSaldo}"> <span th:case="'BAJO'">PERSONA
+					CON AHORROS BAJOS</span> <span th:case="'MEDIO'">PERSONA CON
+					AHORROS MEDIOS</span> <span th:case="'ALTO'">PERSONA CON AHORROS
+					ALTOS</span> <span th:case="*">PERSONA CON AHORROS MUY ALTOS</span>
+		</span> - <span th:text="${p.nombre}"></span> - <span
+			th:text="${p.saldoCuenta}"></span></li>
+	</ul>
+
+</body>
+</html>

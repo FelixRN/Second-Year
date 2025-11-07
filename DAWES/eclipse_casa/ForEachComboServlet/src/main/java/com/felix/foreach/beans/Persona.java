@@ -27,4 +27,3 @@ public class Persona implements Serializable {
 		this.saldoCuenta = saldoCuenta;
 	}
 }
-
