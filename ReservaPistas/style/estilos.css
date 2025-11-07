@@ -1,0 +1,57 @@
+#infoInicial {
+    text-align: center;
+    font-size: larger;
+}
+
+.estiloCajas {
+    box-sizing: border-box;
+    border: 2px solid palevioletred;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+#divMes {
+    width: 65%;
+    float: left;
+    margin-top: 75px;
+    margin-left: 5%;
+}
+
+table {
+    margin: 3%;
+    border: 2px #666 solid;
+}
+
+td {
+    padding: 25px;
+    border: 2px #666 solid;
+    text-align: center;
+    width: 1%;
+    height: 1em;
+    font-size: x-large;
+}
+
+.casillaSeleccionada {
+    background-color: tomato;
+}
+
+#recarga {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 2%;
+    border: 0px;
+    border-radius: 1em;
+}
+
+.fondoViolet {
+    background-color: palevioletred;
+}
+
+#divAvisos {
+    width: 20%;
+    float: right;
+    margin-top: 55px;
+    margin-right: 5%;
+    height: 600px;
+    text-align: center;
+}

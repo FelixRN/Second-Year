@@ -22,7 +22,7 @@
 <c:if test="${not empty jugadorSeleccionado}">
     <h3>Resultado:</h3>
     <p>Jugador: <strong>${jugadorSeleccionado}</strong></p>
-    <p style="color:${color}">Rol asignado: <strong>${rolAsignado}</strong></p>
+    <p> Rol asignado: <strong>${rolAsignado}</strong></p>
     <p style="color:${color}">${mensaje}</p>
 </c:if>
 

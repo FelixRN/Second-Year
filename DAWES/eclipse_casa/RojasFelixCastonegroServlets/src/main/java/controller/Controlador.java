@@ -17,7 +17,6 @@ import negocio.JugadorDTO;
  * Servlet implementation class Controlador
  */
 @WebServlet({"", "/Controlador"})
-/*@WebServlet(name="Controlador", urlPatterns = {"/"})*/
 public class Controlador extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

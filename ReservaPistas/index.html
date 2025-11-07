@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/scripts.js"></script>
+    <link rel="stylesheet" href="./style/estilos.css">
+    <title>Reserva de Pistas</title>
+</head>
+
+<body>
+    <div id="infoInicial">
+        <h1> RESERVA DE PISTAS </h1>
+        <label for="deporte">Deporte:</label> <input type="text" id="deporte">
+        <input type="button" id="recarga" class="fondoViolet" onclick="nuevoCalendario();" value="Calendario Mes">
+    </div>
+    <div id="divMes" class="estiloCajas">
+        <table>
+            <tr>
+                <th class="fondoViolet">LUNES</th>
+                <th class="fondoViolet">MARTES</th>
+                <th class="fondoViolet">MIERCOLES</th>
+                <th class="fondoViolet">JUEVES</th>
+                <th class="fondoViolet">VIERNES</th>
+                <th class="fondoViolet">SÁBADO</th>
+                <th class="fondoViolet">DOMINGO</th>
+            </tr>
+            <tr>
+                <td id="casilla1" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla2" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla3" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla4" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla5" onmousedown="cambiarColor(this);"></td>
+                <td class="fondoViolet"></td>
+                <td class="fondoViolet"></td>
+            </tr>
+            <tr>
+                <td id="casilla6" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla7" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla8" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla9" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla10" onmousedown="cambiarColor(this);"></td>
+                <td class="fondoViolet"></td>
+                <td class="fondoViolet"></td>
+            </tr>
+            <tr>
+                <td id="casilla11" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla12" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla13" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla14" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla15" onmousedown="cambiarColor(this);"></td>
+                <td class="fondoViolet"></td>
+                <td class="fondoViolet"></td>
+            </tr>
+            <tr>
+                <td id="casilla16" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla17" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla18" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla19" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla20" onmousedown="cambiarColor(this);"></td>
+                <td class="fondoViolet"></td>
+                <td class="fondoViolet"></td>
+            </tr>
+            <tr>
+                <td id="casilla21" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla22" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla23" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla24" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla25" onmousedown="cambiarColor(this);"></td>
+                <td class="fondoViolet"></td>
+                <td class="fondoViolet"></td>
+            </tr>
+            <tr>
+                <td id="casilla26" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla27" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla28" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla29" onmousedown="cambiarColor(this);"></td>
+                <td id="casilla30" onmousedown="cambiarColor(this);"></td>
+                <td class="fondoViolet"></td>
+                <td class="fondoViolet"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="divAvisos" class="estiloCajas">
+       <h3> Avisos </h3>
+    </div>
+</body>
+
+</html>
