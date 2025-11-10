@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\i18nServlet"/>
 			<item value="C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\RojasFelixCastonegroServlets\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -14,7 +15,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -26,6 +27,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.felix.Colegio"/>
+			<item value="com.felix.i18n"/>
 			<item value="com.felix.AppDescuentoServlets"/>
 			<item value="com.felix.ForEachCombo"/>
 			<item value="com.felix.RojasFelixCastonegroServlets"/>
@@ -37,6 +40,8 @@
 			<item value="RojasFelixCastonegroServlets"/>
 		</list>
 		<list key="artifactId">
+			<item value="Colegio"/>
+			<item value="i18n"/>
 			<item value="AppDescuentoServlets"/>
 			<item value="ForEachCombo"/>
 			<item value="RojasFelixCastonegroServlets"/>
