@@ -1,15 +1,13 @@
 INDEX VERSION 1.134
-C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1011857815.index
-\RojasFelixCastonegroServlets\src\main\java
-C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2589162068.index
+C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3067981159.index
+\AppDescuentoServlets\src\main\java
+C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4220709366.index
+\AppDescuentoServlets\src\main\java
+C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\452925614.index
 \Colegio\src\main\java
-C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3776273556.index
-\RojasFelixCastonegroServlets\src\main\java
-C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\452925614.index
-\Colegio\target\generated-sources\annotations
-C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4253817650.index
-\i18nServlet\src\main\java
-C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3024674267.index
-\i18nServlet\src\main\java
-C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3350478353.index
-\i18n\target\generated-sources\annotations
+C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3764326816.index
+\AppDescuentoServlets\src\main\java
+C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\770310103.index
+\AppDescuentoServlets\src\main\java
+C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2589162068.index
+\Colegio\src\main\java

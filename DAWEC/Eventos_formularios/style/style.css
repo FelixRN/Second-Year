@@ -1,0 +1,48 @@
+div {
+    border: red 1px solid;
+    overflow: hidden;
+    margin: 2%;
+    padding: 1%;
+}
+
+#seccionLista {
+    border: 2px plum solid;
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    border-radius: 22px 22px;
+}
+
+#seccionFormulario {
+    text-align: center;
+    border: 2px plum solid;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 22px 22px;
+}
+
+#seccionTercera {
+    clear: both;
+}
+
+.par {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+
+.impar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.destacado {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+}
