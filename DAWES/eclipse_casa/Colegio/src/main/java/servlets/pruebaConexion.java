@@ -30,7 +30,7 @@ public class pruebaConexion extends HttpServlet {
 		
 		String dbURL = "jdbc:mysql://localhost:3306/colegio";
 		String username = "root";
-		String password = "PracticaRoot";
+		String password = "Clase";
 		connection = DriverManager.getConnection(dbURL, username,password);
 			logger.info("Conexion con la BBDD establecida");
 		} catch (SQLException | ClassNotFoundException e) {

@@ -1,13 +1,5 @@
 INDEX VERSION 1.134
-C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3067981159.index
-\AppDescuentoServlets\src\main\java
-C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4220709366.index
-\AppDescuentoServlets\src\main\java
-C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\452925614.index
+C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2589162068.index
 \Colegio\src\main\java
-C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3764326816.index
-\AppDescuentoServlets\src\main\java
-C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\770310103.index
-\AppDescuentoServlets\src\main\java
-C:\Users\Yo y tu\Desktop\DAW26\Second-Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2589162068.index
+C:\Users\alumnofp\Desktop\Second_Year\DAWES\eclipse_casa\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\452925614.index
 \Colegio\src\main\java
