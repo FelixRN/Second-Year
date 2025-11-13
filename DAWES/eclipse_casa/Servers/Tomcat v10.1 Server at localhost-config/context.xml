@@ -26,4 +26,10 @@
     <!--
     <Manager pathname="SESSIONS.ser" />
     -->
+    <ResourceLink name="jdbc/miBBDD"
+global="jdbc/BBDDColegio"
+auth="Container"
+type="javax.sql.DataSource" />
+    
+    
 </Context>
