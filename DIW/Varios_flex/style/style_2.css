@@ -39,7 +39,7 @@ a:hover {
     background-color: #555;
     }
 
-.menu-checkbox, .menu-toggle {
+.menu_checkbox, .menu-toggle {
     display: none;
     }
 
@@ -74,7 +74,7 @@ li {
     border-bottom: 1px solid #444;
 }
 
-.menu-checkbox:checked ~ .nav_menu {
+.menu_checkbox:checked ~ .nav_menu {
         display: block;
     }
 
