@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style_1.css">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Registro</h1>
+        <form>
+            <div class="form_row">
+                <div class="form_group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form_group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+            </div>
+
+            <div class="form_row">
+                <div class="form_group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form_group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="phone" id="telefono" name="telefono" required>
+                </div>
+            </div>
+
+            <div class="form_unique">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+            </div>
+
+            <div class="form_row">
+                <div class="form_group">
+                    <label for="ciudad">Ciudad:</label>
+                    <select id="ciudad" name="ciudad">
+                        <option value="">Selecciona una ciudad</option>
+                        <option value="salamanca">Salamanca</option>
+                        <option value="vigo">Vigo</option>
+                        <option value="madrid">Madrid</option>
+                    </select>
+                </div>
+                <div class="form_group">
+                    <label for="pais">País:</label>
+                    <select id="pais" name="pais">
+                        <option value="">Selecciona un país</option>
+                        <option value="peru">Perú</option>
+                        <option value="espana">España</option>
+                        <option value="alemania">Alemania</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form_unique">
+                <label for="fecha">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha" name="fecha" min="1900-01-01" max="2015-12-31">
+            </div>
+
+            <div class="form_unique">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Acepto los términos y condiciones</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

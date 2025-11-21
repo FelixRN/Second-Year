@@ -35,6 +35,21 @@
        Documentation at /docs/jndi-resources-howto.html
   -->
   <GlobalNamingResources>
+  
+  <Resource auth="Container"
+driverClassName="com.mysql.cj.jdbc.Driver"
+global="jdbc/BBDDColegio"
+maxActive="100"
+maxIdle="20"
+maxWait="10000"
+minIdle="5"
+name="jdbc/BBDDColegio"
+password="PracticaRoot"
+type="javax.sql.DataSource"
+url="jdbc:mysql://localhost:3306/colegio?
+serverTimezone=UTC"
+username="root"/>
+  
     <!-- Editable user database that can also be used by
          UserDatabaseRealm to authenticate users
     -->
