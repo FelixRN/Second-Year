@@ -22,8 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// ➢ Al pasar ratón por "Escoge el sexo": quitar atributo name a radio buttons
-let labelSexo = document.querySelector('label'); // O buscar el texto específico
 // Mejor buscar todos los labels y encontrar el que contiene "Escoge el sexo"
 let labels = document.querySelectorAll('label');
 let labelEscoger;

@@ -3,10 +3,18 @@ Crear Maven Proyect
 buscar maven-archetype-webapp
 agregar dependencia jakarta y cambiar la versión al 17
 Configurar el Project Facets
+
+//Añadir dependencias de JSTL y actualizar el web.xml
 crear un folder en main llamado java y crear 3 paquetes:com..appdto.controladores/modelo/negocio
+
+En el controlador crear un Servlet
 
 
 SpringBoot-->
 Crear Spring Starter Project -> Type: Maven, después agregamos Spring Web 
 Ya nos crea todas las carpetas
 Escribir localhost:8080
+
+
+ctrl + i
+ctrl + shift + o
