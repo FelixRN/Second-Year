@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(141, 195, 202);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+
+form{
+    background-color: white;
+}
